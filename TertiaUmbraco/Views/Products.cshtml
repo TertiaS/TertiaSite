@@ -1,0 +1,55 @@
+﻿@inherits UmbracoTemplatePage<Products>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+    Layout = "Master.cshtml";
+}
+
+
+
+		    
+<div id="main-container">
+	<div id="main" class="wrapper clearfix">
+	    
+	    
+	    @Html.Partial("~/Views/Partials/ProductHeader.cshtml")
+
+	    
+	    
+        <div class="Grid Grid--gutters Grid--cols-3 product-grid">
+            @if (Model.Content.FeaturedProducts != null)
+            {
+
+
+     <!-- Look in Featured Products for what to populate content with -->
+                foreach (Product product in Model.Content.FeaturedProducts)
+                {
+
+    <!-- Show the image and link it to the child url 
+
+
+        Get the product name and price and put together
+
+
+
+    -->
+                    <a href="@product.Url" class="product-grid__item" style="background-image: url('@product.Photos.FirstOrDefault().Url')">
+                        <div class="product-grid__item__overlay">
+
+
+                            <div class="product-grid__item__name">@product.ProductName</div>
+                            <div class="product-grid__item__price">@Model.Content.DefaultCurrency @product.Price.ToString("F")</div>
+                        </div>
+                    </a>
+                  
+                }
+            }
+        </div>
+        
+        
+    </div>
+</div>
+        
+        
+
+        
+ 

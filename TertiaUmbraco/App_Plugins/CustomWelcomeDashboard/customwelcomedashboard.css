@@ -1,0 +1,42 @@
+.welcome-dashboard h1 {
+    font-size:4em;
+    color:purple;
+}
+#background {
+
+    background: url("https://pre00.deviantart.net/4c24/th/pre/f/2017/184/9/e/sonic_title_card_background_by_sab64-dbezidi.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+@font-face {
+    font-family: 'andesregular';
+    src: url('fonts/andes.woff2') format('woff2'),
+         url('fonts/andes.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'gaslightregular';
+    src: url('fonts/gaslight_regular.woff2') format('woff2'),
+         url('fonts/gaslight_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'sonic_title_fontregular';
+    src: url('fonts/sonic_title_font.woff2') format('woff2'),
+         url('fonts/sonic_title_font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
