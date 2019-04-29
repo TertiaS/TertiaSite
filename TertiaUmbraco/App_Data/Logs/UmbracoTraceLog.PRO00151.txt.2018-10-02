@@ -1,0 +1,132 @@
+﻿ 2018-10-02 11:37:10,068 [P17996/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.12.2 application starting on PRO00151
+ 2018-10-02 11:37:10,126 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-10-02 11:37:10,143 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 17ms)
+ 2018-10-02 11:37:10,236 [P17996/D2/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-10-02 11:37:10,239 [P17996/D2/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-10-02 11:37:10,242 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-10-02 11:37:10,941 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 698ms)
+ 2018-10-02 11:37:10,942 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-10-02 11:37:10,951 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 8ms)
+ 2018-10-02 11:37:10,992 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-10-02 11:37:10,994 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-10-02 11:37:10,994 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-10-02 11:37:11,000 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 6ms)
+ 2018-10-02 11:37:11,002 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-10-02 11:37:11,002 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-10-02 11:37:11,003 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-10-02 11:37:11,010 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 6ms)
+ 2018-10-02 11:37:11,028 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-10-02 11:37:11,029 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-10-02 11:37:11,029 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-10-02 11:37:11,035 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 6ms)
+ 2018-10-02 11:37:11,037 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-10-02 11:37:11,037 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-10-02 11:37:11,038 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-10-02 11:37:11,043 [P17996/D2/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 5ms)
+ 2018-10-02 11:37:14,401 [P17996/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: |DataDirectory|\Umbraco.sdf. Exception: System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = C:\Users\tertia.southwick\Source\Repos\TertiaSite\TertiaUmbraco\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ 2018-10-02 11:37:14,426 [P17996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2018-10-02 11:37:14,855 [P17996/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: |DataDirectory|\Umbraco.sdf. Exception: System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = C:\Users\tertia.southwick\Source\Repos\TertiaSite\TertiaUmbraco\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ 2018-10-02 11:37:14,858 [P17996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2018-10-02 11:37:15,965 [P17996/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: |DataDirectory|\Umbraco.sdf. Exception: System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = C:\Users\tertia.southwick\Source\Repos\TertiaSite\TertiaUmbraco\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ 2018-10-02 11:37:15,968 [P17996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2018-10-02 11:37:17,053 [P17996/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: |DataDirectory|\Umbraco.sdf. Exception: System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = C:\Users\tertia.southwick\Source\Repos\TertiaSite\TertiaUmbraco\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ 2018-10-02 11:37:17,055 [P17996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2018-10-02 11:37:18,123 [P17996/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: |DataDirectory|\Umbraco.sdf. Exception: System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = C:\Users\tertia.southwick\Source\Repos\TertiaSite\TertiaUmbraco\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ 2018-10-02 11:37:18,125 [P17996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2018-10-02 11:37:19,210 [P17996/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: |DataDirectory|\Umbraco.sdf. Exception: System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = C:\Users\tertia.southwick\Source\Repos\TertiaSite\TertiaUmbraco\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ 2018-10-02 11:37:19,212 [P17996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2018-10-02 11:37:20,300 [P17996/D2/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: |DataDirectory|\Umbraco.sdf. Exception: System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = C:\Users\tertia.southwick\Source\Repos\TertiaSite\TertiaUmbraco\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ 2018-10-02 11:37:20,309 [P17996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2018-10-02 11:37:20,339 [P17996/D2/T1] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+Umbraco.Core.Exceptions.UmbracoStartupFailedException: Umbraco cannot start. A connection string is configured but Umbraco cannot connect to the database.
+   at Umbraco.Core.CoreBootManager.EnsureDatabaseConnection()
+   at Umbraco.Core.CoreBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Web.WebBootManager.Complete(Action`1 afterComplete)
+   at Umbraco.Core.UmbracoApplicationBase.StartApplication(Object sender, EventArgs e)
+   at Umbraco.Core.UmbracoApplicationBase.Application_Start(Object sender, EventArgs e)
+ 2018-10-02 11:37:30,378 [P17996/D2/T7] INFO  Umbraco.Core.MainDom - Stopping...
+ 2018-10-02 11:37:30,381 [P17996/D2/T7] INFO  Umbraco.Web.ExamineStartup - Examine shutting down
+ 2018-10-02 11:37:30,496 [P17996/D2/T7] ERROR Umbraco.Web.ExamineStartup - The index InternalIndexer is rebuilding due to being unreadable/corrupt
+System.IO.FileNotFoundException: Could not find file 'C:\Users\tertia.southwick\Source\Repos\TertiaSite\TertiaUmbraco\App_Data\TEMP\ExamineIndexes\Internal\Index\_1t.cfs'.
+File name: 'C:\Users\tertia.southwick\Source\Repos\TertiaSite\TertiaUmbraco\App_Data\TEMP\ExamineIndexes\Internal\Index\_1t.cfs'
+   at Lucene.Net.Index.SegmentInfos.FindSegmentsFile.Run(IndexCommit commit)
+   at Lucene.Net.Index.DirectoryReader.Open(Directory directory, IndexDeletionPolicy deletionPolicy, IndexCommit commit, Boolean readOnly, Int32 termInfosIndexDivisor)
+   at Lucene.Net.Index.IndexReader.Open(Directory directory, Boolean readOnly)
+   at Examine.LuceneEngine.Providers.LuceneIndexer.IsReadable(Exception& ex) in C:\projects\examine-qvx04\src\Examine\LuceneEngine\Providers\LuceneIndexer.cs:line 961
+ 2018-10-02 11:37:30,513 [P17996/D2/T7] INFO  Umbraco.Web.ExamineStartup - Complete (took 132ms)
+ 2018-10-02 11:37:30,514 [P17996/D2/T7] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2018-10-02 11:37:59,563 [P17996/D3/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.12.2 application starting on PRO00151
+ 2018-10-02 11:37:59,600 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-10-02 11:37:59,620 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 20ms)
+ 2018-10-02 11:37:59,734 [P17996/D3/T1] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2018-10-02 11:37:59,737 [P17996/D3/T1] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2018-10-02 11:37:59,742 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-10-02 11:38:00,659 [P17996/D2/T7] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: InitializationError
+
+_shutDownMessage=Initialization Error
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.AppDomainShutdownTimerCallback(Object state)
+   at System.Threading.TimerQueueTimer.CallCallbackInContext(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.TimerQueueTimer.CallCallback()
+   at System.Threading.TimerQueueTimer.Fire()
+   at System.Threading.TimerQueue.FireNextTimers()
+   at System.Threading.TimerQueue.AppDomainTimerCallback()
+ 2018-10-02 11:38:00,868 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1125ms)
+ 2018-10-02 11:38:00,869 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IApplicationStartupHandler
+ 2018-10-02 11:38:00,876 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IApplicationStartupHandler (took 7ms)
+ 2018-10-02 11:38:01,133 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-10-02 11:38:01,134 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-10-02 11:38:01,136 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-10-02 11:38:01,137 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter (took 0ms)
+ 2018-10-02 11:38:01,138 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-10-02 11:38:01,140 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 1ms)
+ 2018-10-02 11:38:01,150 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-10-02 11:38:01,153 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Core.PropertyEditors.IPropertyValueConverter (took 3ms)
+ 2018-10-02 11:38:01,317 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-10-02 11:38:01,318 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-10-02 11:38:01,318 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.Mvc.SurfaceController
+ 2018-10-02 11:38:01,319 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.Mvc.SurfaceController (took 1ms)
+ 2018-10-02 11:38:01,321 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving umbraco.interfaces.IDiscoverable
+ 2018-10-02 11:38:01,322 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved umbraco.interfaces.IDiscoverable (took 0ms)
+ 2018-10-02 11:38:01,322 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolving Umbraco.Web.WebApi.UmbracoApiController
+ 2018-10-02 11:38:01,328 [P17996/D3/T1] INFO  Umbraco.Core.PluginManager - Resolved Umbraco.Web.WebApi.UmbracoApiController (took 6ms)
+ 2018-10-02 11:38:05,994 [P17996/D3/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: |DataDirectory|\Umbraco.sdf. Exception: System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = C:\Users\tertia.southwick\Source\Repos\TertiaSite\TertiaUmbraco\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ 2018-10-02 11:38:06,004 [P17996/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
+ 2018-10-02 11:38:06,610 [P17996/D3/T1] WARN  Umbraco.Core.Persistence.DbConnectionExtensions - Configured database is reporting as not being available! DataSource: |DataDirectory|\Umbraco.sdf. Exception: System.Data.SqlServerCe.SqlCeException (0x80004005): The database file cannot be found. Check the path to the database. [ Data Source = C:\Users\tertia.southwick\Source\Repos\TertiaSite\TertiaUmbraco\App_Data\Umbraco.sdf ]
+   at System.Data.SqlServerCe.SqlCeConnection.Open(Boolean silent)
+   at System.Data.SqlServerCe.SqlCeConnection.Open()
+   at Umbraco.Core.Persistence.DbConnectionExtensions.IsAvailable(IDbConnection connection)
+ 2018-10-02 11:38:06,633 [P17996/D3/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = False
